@@ -21,3 +21,19 @@
     AWS(S3,EMR,Lambda)
     GCP(Cloud Storage)
     
+    
+    sudo /etc/init.d/elasticsearch start
+ 
+ http://172.20.100.201:9200/
+ 
+ /opt/logstash/heapdump.hprof
+ 
+ bin/logstash -f /etc/logstash/jdbc_sch.conf
+ 
+ /etc/logstash/jdbc_batch.conf
+ 
+ ot@master logstash]# vi  /etc/logstash/jdbc_batch.conf
+[root@master logstash]# bin/logstash -f /etc/logstash/jdbc_batch.conf
+
+
+    
